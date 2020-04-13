@@ -47,3 +47,14 @@ I've based the general structure of the sketch on the code in *Visualizing Data:
 The idea and technique to optimize the text font is from the book *Generative Design: Visualize, Program, and Create with Processing* by Hartmut Bohnacker, Benedikt Gross, Julia Laub, and Claudius Lazzeroni. 
 
 Both of these books are good reads with lots of useful information and techniques - recommended.
+
+
+## External dependencies 
+
+### Treemap Library
+
+This page contains a simple Treemap library for use with Processing It is a minor adaptation of Martin Wattenberg and Ben Bederson's [Treemap Java Algorithms](http://www.cs.umd.edu/hcil/treemap-history/Treemaps-Java-Algorithms.zip) collection, released under the Mozilla Public License. Only a small percentage of the original code has been altered from their original library. The [reference](https://benfry.com/writing/treemap/reference/) covers the details.
+
+The Processing library can be found here: [library.zip](library.zip). Unzip the file, and place the treemap folder into your Processing → Libraries folder. Restart Processing if it's already running so that it picks up the new library.
+
+Reference and source code is included with the download. This code was packaged for the book [Visualizing Data](http://www.amazon.com/exec/obidos/ASIN/0596514557/ref=nosim/benfrycom-20) by Ben Fry for the examples in Chapter 7.
